@@ -1,0 +1,51 @@
+@media (max-width: 1015px) {
+    body{
+        background-color: black;
+    }
+    .container{
+    }
+    .filters{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .locations{
+        width: 33.333%;
+    }
+    .amenities{
+        flex-grow: 1;
+        width: 33.333%;
+    }
+    
+    h1{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width: 425px){
+    .filters button::after{
+        content: "🔎";
+    }
+    .filters button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .locations h3{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+    }
+    .locations h4{
+        display: none;
+    }
+    .amenities h3{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .amenities h4{
+        display: none;
+    }
+}

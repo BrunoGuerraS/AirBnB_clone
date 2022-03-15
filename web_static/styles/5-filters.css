@@ -1,0 +1,59 @@
+/* ---------container------- */
+.filters{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px #DDDDDD solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* ---------container------- */
+/* ----------items---------- */
+
+.filters button{
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 30px;
+}
+.filters button:hover{
+    opacity: 90%;
+}
+.locations{
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.amenities{
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    flex-basis: auto;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* ----------items---------- */
+/* ---------subitems-------- */
+h3{
+    margin: 0;
+    font-weight: 600;
+    margin-left: 50px;
+}
+h4{
+    margin: 0;
+    font-weight: 400;
+    margin-left: 50px;
+}
